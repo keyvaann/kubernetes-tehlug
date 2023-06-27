@@ -43,9 +43,11 @@
 			// - https://revealjs.com/config/
 			Reveal.initialize({
 				hash: true,
+				width: '100%',
+				slideNumber: true,
 				anything: [ 
                   {className: "asciicast",
-                           defaults: { theme: 'monokai', fontSize: '15px' },
+                           defaults: { theme: 'monokai', fontSize: '30px', preload: true, fit: false, loop: false, idleTimeLimit: 1, terminalFontSize: "medium" },
                            initialize: (function(container, options) {
                                     //  asciinema.player.min.js.CreatePlayer(container, options.URL, options);
 									 console.log(options.URL, container, options);

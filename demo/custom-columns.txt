@@ -1,0 +1,2 @@
+Name Status Image Node
+.metadata.name .status.phase .spec.containers[*].image .spec.nodeName

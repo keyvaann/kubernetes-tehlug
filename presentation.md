@@ -102,15 +102,77 @@ Define what a pod is
 
 ---
 
-Demo
+# Enough theory!
 
-<div class="asciicast">
+# Show me action!
+
+--
+Let's get a list of nodes in our cluster
+
+<div class="asciicast r-stretch">
     <!--
     {
-        "URL": "https://asciinema.org/a/569727"
+        "URL": "demo/nodes.cast"
     }
     -->
 </div>
+
+--
+Let's install Wordpress
+
+<div class="asciicast r-stretch">
+    <!--
+    {
+        "URL": "demo/apply.cast"
+    }
+    -->
+</div>
+
+--
+You can customize everything!
+
+<div class="asciicast r-stretch">
+    <!--
+    {
+        "URL": "demo/custom-columns.cast"
+    }
+    -->
+</div>
+--
+Let's break it!
+
+<div class="asciicast r-stretch">
+    <!--
+    {
+        "URL": "demo/break.cast"
+    }
+    -->
+</div>
+--
+
+Let's try to access it
+
+<div class="asciicast r-stretch">
+    <!--
+    {
+        "URL": "demo/port-forward.cast"
+    }
+    -->
+</div>
+
+---
+
+# Challenges
+
+- Steep learning curve <!-- .element: class="fragment" data-fragment-index="0" -->
+- Complexity of setup and maintenance <!-- .element: class="fragment" data-fragment-index="1" -->
+- Security concerns <!-- .element: class="fragment" data-fragment-index="2" -->
+
+Note:
+
+- It's a complex system with a myriad of components and concepts that users need to understand to effectively use the platform.
+- While Kubernetes automates many tasks, it requires careful configuration and tuning to ensure optimal performance. It can also be difficult to troubleshoot and diagnose problems when they occur due to the distributed nature of the platform.
+- While Kubernetes has robust security features, it also presents a large attack surface. Misconfigurations can lead to vulnerabilities, and the dynamic nature of the system can make it difficult to monitor and detect security incidents. It's essential to follow best practices for securing Kubernetes deployments, such as using role-based access control, securing the Kubernetes API server, and regularly updating and patching the system.
 
 ---
 
