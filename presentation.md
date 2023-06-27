@@ -75,9 +75,9 @@ June 2023
 
 --
 
-## Architecture review
+## Architecture
 
-![](images/architecture.png)
+![](images/architecture.png) <!-- .element: height="600px" -->
 
 Note:
 This diagram isn't very accurate but it's simple enough to explain things
@@ -192,6 +192,6 @@ Note:
 
 # Questions
 
----
+Slides:
 
-# End
+https://github.com/K1Hyve/kubernetes-tehlug
