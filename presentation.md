@@ -12,7 +12,7 @@ June 2023
 
 - We know about the Docker <!-- .element: class="fragment" data-fragment-index="1" -->
 - Enter Kubernetes <!-- .element: class="fragment" data-fragment-index="2" -->
-- Key Feature of Kubernetes <!-- .element: class="fragment" data-fragment-index="3" -->
+- Demo <!-- .element: class="fragment" data-fragment-index="3" -->
 - Challenges <!-- .element: class="fragment" data-fragment-index="4" -->
 - Questions <!-- .element: class="fragment" data-fragment-index="5" -->
 
@@ -69,8 +69,8 @@ June 2023
 
 ![alt text](images/kubernetes.png "Title") <!-- .element: height="250" -->
 
-- In Greek kubernetes means "governor", "helmsman" or "captain" <!-- .element: class="fragment" data-fragment-index="1" -->
-- As the name suggests it’s the governor for Docker containers and will manage the containers in multiple machines <!-- .element: class="fragment" data-fragment-index="2" -->
+- In Greek Kubernetes means "governor", "helmsman" or "captain" <!-- .element: class="fragment" data-fragment-index="1" -->
+- As the name suggests it’s the governor for containers and will manage the containers in multiple machines <!-- .element: class="fragment" data-fragment-index="2" -->
 - It’s a container-orchestration solution <!-- .element: class="fragment" data-fragment-index="3" -->
 
 --
@@ -88,17 +88,22 @@ Define what a pod is
 
 ## Key Feature of Kubernetes
 
-- Managing nodes
-  -- Move applications when node is unavailable or out of resources
-- Auto scaling applications and nodes
-  -- Based on CPU, Memory and custom metrics
-- No vendor lock in, easily move between different providers
-- Service discovery & Load balancing
-- Security measurements
-  -- Namespaces
-  -- Security and Network Policies
-- Zero-downtime deployments
-- Package management via Helm
+- Managing nodes <!-- .element: class="fragment" data-fragment-index="0" -->
+- Move applications when node is unavailable or out of resources <!-- .element: class="fragment" data-fragment-index="0" -->
+- Auto scaling applications and nodes <!-- .element: class="fragment" data-fragment-index="1" -->
+- Based on CPU, Memory and custom metrics <!-- .element: class="fragment" data-fragment-index="1" -->
+- No vendor lock in, easily move between different providers <!-- .element: class="fragment" data-fragment-index="2" -->
+- Service discovery & Load balancing <!-- .element: class="fragment" data-fragment-index="3" -->
+- Security measurements <!-- .element: class="fragment" data-fragment-index="4" -->
+- Namespaces <!-- .element: class="fragment" data-fragment-index="4" -->
+- Security and Network Policies <!-- .element: class="fragment" data-fragment-index="4" -->
+- Zero-downtime deployments <!-- .element: class="fragment" data-fragment-index="5" -->
+
+--
+
+# Hello world!
+
+![alt text](images/hello-world.jpg "Title")
 
 ---
 
@@ -129,7 +134,7 @@ Let's install Wordpress
 </div>
 
 --
-You can customize everything!
+Let's customize it
 
 <div class="asciicast r-stretch">
     <!--
@@ -139,8 +144,7 @@ You can customize everything!
     -->
 </div>
 --
-Let's break it!
-
+Let's break it
 <div class="asciicast r-stretch">
     <!--
     {
@@ -156,6 +160,16 @@ Let's try to access it
     <!--
     {
         "URL": "demo/port-forward.cast"
+    }
+    -->
+</div>
+--
+Let's scale it
+
+<div class="asciicast r-stretch">
+    <!--
+    {
+        "URL": "demo/scale.cast"
     }
     -->
 </div>
